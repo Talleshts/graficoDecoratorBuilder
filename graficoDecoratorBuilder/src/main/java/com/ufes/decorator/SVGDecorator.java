@@ -21,13 +21,9 @@ public class SVGDecorator implements IGraficoDecorator{
     }
       
     @Override
-    public JFreeChart decorate(JFreeChart chart) {
-        try {
-            JFreeSVG.save(chart, new File(filePath), 800, 600);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return chart;
+    public JFreeChart decorate(JFreeChart grafico) {
+        //JFreeSVG.save(grafico, new File(filePath), 800, 600);
+        return grafico;
     }
     
 }

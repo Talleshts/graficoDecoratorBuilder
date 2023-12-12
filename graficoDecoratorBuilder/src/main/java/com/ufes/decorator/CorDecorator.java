@@ -6,6 +6,7 @@ package com.ufes.decorator;
 
 import java.awt.Color;
 import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.CategoryPlot;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.category.BarRenderer;
 
@@ -22,7 +23,7 @@ public class CorDecorator implements  IGraficoDecorator{
 
     @Override
     public JFreeChart decorate(JFreeChart grafico) {
-        XYPlot plot = (XYPlot) grafico.getPlot();
+        CategoryPlot plot = (CategoryPlot) grafico.getPlot();
         BarRenderer renderer = (BarRenderer) plot.getRenderer();
         renderer.setSeriesPaint(0, color);
         return grafico;

@@ -1,3 +1,9 @@
+com/ufes/decorator/TituloDecorator.class
 com/ufes/main/Main.class
 com/ufes/decorator/CorDecorator.class
+com/ufes/presenter/GraficoPresenter.class
+com/ufes/view/GraficoView.class
+com/ufes/model/GraficoModel.class
+com/ufes/db/DadosCSVReader.class
+com/ufes/decorator/SVGDecorator.class
 com/ufes/decorator/IGraficoDecorator.class

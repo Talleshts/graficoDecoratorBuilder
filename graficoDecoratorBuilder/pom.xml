@@ -15,12 +15,23 @@
         <dependency>
             <groupId>org.jfree</groupId>
             <artifactId>jfreechart</artifactId>
-            <version>1.5.1</version>
+            <version>1.5.4</version>
         </dependency>
         <dependency>
             <groupId>org.jfree</groupId>
-            <artifactId>org.jfree.svg</artifactId>
-            <version>4.1</version>
+            <artifactId>jfreesvg</artifactId>
+            <version>3.4.3</version>
+        </dependency>
+        <dependency>
+            <groupId>jfree</groupId>
+            <artifactId>jcommon</artifactId>
+            <version>1.0.16</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.9.0</version>
         </dependency>
     </dependencies>
     <name>graficoDecoratorBuilder</name>

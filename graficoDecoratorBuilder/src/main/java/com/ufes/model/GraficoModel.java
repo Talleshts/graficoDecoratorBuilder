@@ -6,16 +6,10 @@ package com.ufes.model;
 
 import com.ufes.decorator.IGraficoDecorator;
 import org.jfree.chart.ChartFactory;
-import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.renderer.category.BarRenderer;
-import org.jfree.chart.title.TextTitle;
 import org.jfree.data.category.CategoryDataset;
-import org.jfree.data.category.DefaultCategoryDataset;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,7 +30,7 @@ public class GraficoModel {
     }
 
     public JFreeChart getChart() {
-        JFreeChart chart = ChartFactory.createBarChart(
+        JFreeChart grafico = ChartFactory.createBarChart(
                 "Bar Chart",
                 "Category",
                 "Value",
@@ -48,9 +42,9 @@ public class GraficoModel {
         );
 
         for (IGraficoDecorator decorator : decorators) {
-            chart = decorator.decorate(chart);
+            grafico = decorator.decorate(grafico);
         }
 
-        return chart;
+        return grafico;
     }    
 }
