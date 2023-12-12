@@ -11,5 +11,17 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>com.ufes.main.Main</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>org.jfree.svg</artifactId>
+            <version>4.1</version>
+        </dependency>
+    </dependencies>
     <name>graficoDecoratorBuilder</name>
 </project>

@@ -1,0 +1,3 @@
+com/ufes/main/Main.class
+com/ufes/decorator/CorDecorator.class
+com/ufes/decorator/IGraficoDecorator.class

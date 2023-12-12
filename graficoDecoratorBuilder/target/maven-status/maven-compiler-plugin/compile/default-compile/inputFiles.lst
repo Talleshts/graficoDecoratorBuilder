@@ -1,0 +1,8 @@
+/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/decorator/IGraficoDecorator.java
+/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/decorator/CorDecorator.java
+/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/view/GraficoView.java
+/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/decorator/SVGDecorator.java
+/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/main/Main.java
+/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/presenter/GraficoPresenter.java
+/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/decorator/TituloDecorator.java
+/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/model/GraficoModel.java
