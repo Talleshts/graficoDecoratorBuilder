@@ -29,7 +29,7 @@ public abstract class RotuloDecorator extends GraficoDecorator {
 
         renderer.setSeriesPaint(0, serie1);
         renderer.setSeriesPaint(1, serie2);
-        //renderer.setBaseItemLabelsVisible(true);
+        renderer.setBaseItemLabelsVisible(true);
 
         alteraRotulo(visivel);
 

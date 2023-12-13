@@ -316,8 +316,8 @@ public final class GraficoPresenter {
     private void addCores() throws CloneNotSupportedException {
         if (!view.getCorBarrasGrupo().isSelected()) {
             ArrayList<Color> cores = new ArrayList();
-            cores.add(Color.decode(GraficoBarraModel.CORDEFAULT1));
-            cores.add(Color.decode(GraficoBarraModel.CORDEFAULT2));
+            cores.add(Color.decode(GraficoBarraModel.CORINICIAL1));
+            cores.add(Color.decode(GraficoBarraModel.CORINICIAL2));
             grafico = new CorBarrasDecorator(grafico, cores);
         } else {
             grafico = new CorBarrasDecorator(grafico, null);

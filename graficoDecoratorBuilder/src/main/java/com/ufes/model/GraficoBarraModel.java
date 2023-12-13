@@ -15,18 +15,18 @@ public class GraficoBarraModel implements IGrafico {
 
     private JFreeChart grafico;
 
-    public final static String CORDEFAULT1 = "0xFF4354";
-    public final static String CORDEFAULT2 = "0x0085C4";
+    public final static String CORINICIAL1 = "0xFBEC5D";
+    public final static String CORINICIAL2 = "0x228B22";
 
     public GraficoBarraModel(DefaultCategoryDataset dataset) {
-        grafico = ChartFactory.createBarChart("", "", "", dataset, PlotOrientation.VERTICAL, true, true, true);
+        grafico = ChartFactory.createBarChart("", "", "", dataset, PlotOrientation.HORIZONTAL, true, true, true);
         grafico.getLegend().setVisible(false);
         grafico.getCategoryPlot().setDomainGridlinesVisible(false);
         grafico.getCategoryPlot().setRangeGridlinesVisible(false);
 
         ArrayList<Color> cores = new ArrayList();
-        cores.add(Color.decode(CORDEFAULT1));
-        cores.add(Color.decode(CORDEFAULT2));
+        cores.add(Color.decode(CORINICIAL1));
+        cores.add(Color.decode(CORINICIAL2));
         for (int i = 0; i < cores.size(); i++) {
             Color c = cores.get(i);
             grafico.getCategoryPlot().getRenderer().setSeriesPaint(i, c);
