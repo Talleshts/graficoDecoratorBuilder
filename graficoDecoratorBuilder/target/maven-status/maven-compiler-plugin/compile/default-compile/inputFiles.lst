@@ -1,9 +1,35 @@
-/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/decorator/IGraficoDecorator.java
-/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/decorator/CorDecorator.java
-/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/view/GraficoView.java
-/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/decorator/SVGDecorator.java
-/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/main/Main.java
-/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/presenter/GraficoPresenter.java
-/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/db/DadosCSVReader.java
-/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/decorator/TituloDecorator.java
-/home/tallesh/repos/UFES/graficoDecoratorBuilder/graficoDecoratorBuilder/src/main/java/com/ufes/model/GraficoModel.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\model\GraficoBarraModel.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\rotulo\AnotacaoTotalProporcionalDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\rotulo\PercentualDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\GraficoDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\rotulo\RotuloDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\db\DadosCSVReader.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\builder\GraficoBarraHorizontalBuilder.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\cor\CorBarrasDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\main\Main.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\cor\SeletorCoresButton.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\titulo\TituloDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\tituloEixos\EixosPresenter.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\builder\GraficoBuilder.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\OrientacaoDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\rotulo\AnotacaoTotalDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\presenter\Zelador.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\rotulo\PercentualLabelGenerator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\titulo\TituloView.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\model\CarregaDadosModel.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\IGrafico.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\model\GraficoAjudaModel.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\presenter\DesfazerMemento.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\tituloEixos\EixosDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\titulo\TituloPresenter.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\tituloEixos\EixosView.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\view\GraficoView.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\rotulo\TotalLabelGenerator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\cor\CoresPresenter.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\LegendaDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\builder\GraficoDiretor.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\builder\GraficoBarraVerticalBuilder.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\cor\CoresView.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\rotulo\PercentualTotalLabelGenerator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\decorator\GradesDecorator.java
+C:\Users\talle\OneDrive\햞ea de Trabalho\repos\graficoDecoratorBuilder\graficoDecoratorBuilder\src\main\java\com\ufes\presenter\GraficoPresenter.java
