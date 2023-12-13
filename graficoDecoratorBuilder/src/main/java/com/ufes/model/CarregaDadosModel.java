@@ -10,7 +10,7 @@ import java.util.Scanner;
 public final class CarregaDadosModel {
 
     private final String delimitador;
-    private Map<String, Double> dadosSumarizados = new LinkedHashMap<>();
+    private Map<String, Double> dadosListados = new LinkedHashMap<>();
 
     public CarregaDadosModel(String dadosCSV, String delimitador, String campoGrupo)
             throws FileNotFoundException, IOException {
@@ -29,21 +29,21 @@ public final class CarregaDadosModel {
             throw new IllegalArgumentException("Campo inexistente neste arquivo!");
         }
 
-        dadosSumarizados.put("Masculino,Solteiro", 0.0);
-        dadosSumarizados.put("Masculino,Casado", 0.0);
-        dadosSumarizados.put("Feminino,Solteiro", 0.0);
-        dadosSumarizados.put("Feminino,Casado", 0.0);
+        dadosListados.put("Solteiro,Masculino", 0.0);
+        dadosListados.put("Casado,Masculino", 0.0);
+        dadosListados.put("Solteiro,Feminino", 0.0);
+        dadosListados.put("Casado,Feminino", 0.0);
         while (sc.hasNextLine()) {
             String linha = sc.nextLine();
 
-            if (linha.toLowerCase().contains("masculino") && linha.toLowerCase().contains("solteir")) {
-                dadosSumarizados.put("Masculino,Solteiro", dadosSumarizados.get("Masculino,Solteiro") + 1);
-            } else if (linha.toLowerCase().contains("masculino") && linha.toLowerCase().contains("casad")) {
-                dadosSumarizados.put("Masculino,Casado", dadosSumarizados.get("Masculino,Casado") + 1);
-            } else if (linha.toLowerCase().contains("feminino") && linha.toLowerCase().contains("solteir")) {
-                dadosSumarizados.put("Feminino,Solteiro", dadosSumarizados.get("Feminino,Solteiro") + 1);
-            } else if (linha.toLowerCase().contains("feminino") && linha.toLowerCase().contains("casad")) {
-                dadosSumarizados.put("Feminino,Casado", dadosSumarizados.get("Feminino,Casado") + 1);
+            if (linha.toLowerCase().contains("solteir") && linha.toLowerCase().contains("masculino")) {
+                dadosListados.put("Solteiro,Masculino", dadosListados.get("Solteiro,Masculino") + 1);
+            } else if (linha.toLowerCase().contains("casad") && linha.toLowerCase().contains("masculino")) {
+                dadosListados.put("Casado,Masculino", dadosListados.get("Casado,Masculino") + 1);
+            } else if (linha.toLowerCase().contains("solteir") && linha.toLowerCase().contains("feminino")) {
+                dadosListados.put("Solteiro,Feminino", dadosListados.get("Solteiro,Feminino") + 1);
+            } else if (linha.toLowerCase().contains("casad") && linha.toLowerCase().contains("feminino")) {
+                dadosListados.put("Casado,Feminino", dadosListados.get("Casado,Feminino") + 1);
             }
         }
     }
@@ -58,8 +58,8 @@ public final class CarregaDadosModel {
         return false;
     }
 
-    public Map<String, Double> getDadosSumarizados() {
-        return dadosSumarizados;
+    public Map<String, Double> getDadosListados() {
+        return dadosListados;
     }
 
 }

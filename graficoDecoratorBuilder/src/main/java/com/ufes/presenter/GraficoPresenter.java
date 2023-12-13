@@ -258,7 +258,7 @@ public final class GraficoPresenter {
 
     private void plotaGraficoInicial() throws CloneNotSupportedException, IOException {
 
-        diretor = new GraficoDiretor(carregaDados.getDadosSumarizados());
+        diretor = new GraficoDiretor(carregaDados.getDadosListados());
         grafico = diretor.criar(new GraficoBarraVerticalBuilder());
         atualizaTela(grafico);
     }
