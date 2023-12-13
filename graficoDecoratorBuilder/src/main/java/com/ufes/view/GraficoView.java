@@ -46,7 +46,7 @@ public final class GraficoView extends javax.swing.JFrame {
         comboBoxTipoBarra = new javax.swing.JComboBox<>();
         btnDesfazer = new javax.swing.JButton();
         btnRestaurarPadrao = new javax.swing.JButton();
-        btnFechar = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -148,13 +148,13 @@ public final class GraficoView extends javax.swing.JFrame {
         btnRestaurarPadrao.setText("Restaurar Padrão");
         getContentPane().add(btnRestaurarPadrao);
 
-        btnFechar.setText("Fechar");
-        btnFechar.addActionListener(new java.awt.event.ActionListener() {
+        jButton1.setText("Fechar");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnFecharActionPerformed(evt);
+                jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(btnFechar);
+        getContentPane().add(jButton1);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -167,10 +167,10 @@ public final class GraficoView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnDesfazerActionPerformed
 
-    private void btnFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFecharActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
           System.exit(0);
-    }//GEN-LAST:event_btnFecharActionPerformed
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     private void rotulosTotalActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_rotulosTotalActionPerformed
         // TODO add your handling code here:
@@ -182,13 +182,13 @@ public final class GraficoView extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JCheckBox Titulo;
     private javax.swing.JButton btnDesfazer;
-    private javax.swing.JButton btnFechar;
     private javax.swing.JButton btnRestaurarPadrao;
     private javax.swing.JComboBox<String> comboBoxTipoBarra;
     private javax.swing.JCheckBox corBarrasGrupo;
     private javax.swing.JPanel decoratorsPanel;
     private javax.swing.JCheckBox eixos;
     private javax.swing.JCheckBox grade;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JCheckBox legenda;
     private javax.swing.JCheckBox rotulosProporcional;
